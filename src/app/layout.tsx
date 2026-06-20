@@ -4,6 +4,13 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Injective Analyzer — AI Portfolio Copilot',
   description: 'On-chain portfolio analysis for Injective wallets: holdings, staking, liquidation risk, AI copilot.',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.png', sizes: '192x192', type: 'image/png' },
+    ],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
